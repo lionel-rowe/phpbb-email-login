@@ -1,0 +1,14 @@
+services:
+    luoning.emaillogin.listener:
+        class: luoning\emaillogin\event\main_listener
+        arguments:
+            - '@config'
+            - '@language'
+            - '@template'
+            - '@user'
+            - '@request'
+            - '@symfony_request'
+            - '@service_container'
+            - '@dbal.conn'
+        tags:
+            - { name: event.listener }
