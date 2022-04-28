@@ -3,13 +3,11 @@
 	"type": "phpbb-extension",
 	"description": "Email Login",
 	"homepage": "https://github.com/lionel-rowe/phpbb-email-login",
-	"version": "0.1.0-dev",
+	"version": "0.1.1-dev",
 	"time": "2022-04-27",
 	"keywords": [
 		"phpbb",
-		"extension",
-		"style",
-		"Dark Mode"
+		"extension"
 	],
 	"license": "GPL-2.0-only",
 	"authors": [
